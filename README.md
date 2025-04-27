@@ -56,7 +56,7 @@ void setup() {
   Serial.begin(9600);
   setAnalogPins("UNO");
 }
-2. Current Measurement
+## 2. Current Measurement
 #include <VAT.h>
 
 void setup() {
@@ -68,7 +68,7 @@ void loop() {
   float current = currentmetr(0, 10.0); // Resistance = 10 Ohm
   Serial.println(current);
 }
-3. Resistance Measurement
+## 3. Resistance Measurement
 #include <VAT.h>
 
 void setup() {
