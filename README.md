@@ -80,11 +80,8 @@ void loop() {
   float resistanceValue = resistance(0, 1, 1000.0); // Known resistance = 1k Ohm
   Serial.println(resistanceValue);
 }
-License
-This library is open source under the MIT license.
-void loop() {
-  float resistanceValue = resistance(0, 1, 1000.0); // Known resistance = 1k Ohm
-  Serial.println(resistanceValue);
-}
-License
-This library is open source under the MIT license.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
